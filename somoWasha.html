@@ -296,10 +296,7 @@
                                     <div class="contact-form bg-white" style="position: fixed; padding: 20px; background-color: white;" >
                                         <div id="success"></div>
                                         <form name="somoWasha" action="./thank-you.html" class="flex flex-wrap -m-2"  data-netlify="true" netlify-honeypot="bot-field" netlify>
-                                            <p style="visibility:hidden">
-                                                <label>Don't fill this out if you'r human</label>
-                                                <input name="bot-field"/>
-                                            </p>
+                    
                                             <div class="form-row">
                                                 <div class="control-group col-sm-6">
                                                     <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
@@ -323,13 +320,11 @@
                                                     data-validation-required-message="Please enter your comment"></textarea>
                                                 <p class="help-block text-danger"></p>
                                             </div>
-                                            <br>
-                                            <br>
-                                            <div data-netlify-recaptcha>
+                      
+                                            <div style="margin:10px" data-netlify-recaptcha>
                             
                                             </div>
-                                            <br>
-                                            <br>
+                                 
                                             <div class="text-center">
                                                 <button class="btn btn-primary py-3 px-4" type="submit" id="sendMessageButton">Send Message</button>
                                             </div>
